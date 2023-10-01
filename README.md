@@ -40,3 +40,7 @@ ng version -> accept
 
 ## Fake API
 https://fakeapi.platzi.com/ 
+
+
+## Chrome extension
+`Angular DevTools` Inspect Element > Tab 'Angular'
