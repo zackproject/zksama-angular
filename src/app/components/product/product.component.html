@@ -1,4 +1,7 @@
 <h2>{{product.title}}</h2>
 <p>{{product.price}} €</p>
-<!-- pot cridar las imatges aixi-->
-<img [src]="product.images[0]" alt="">
+<!-- pot cridar las imatges aixi
+<img [src]="product.images[0]" alt="" height="1080" width="1080">
+-->
+<!-- com si fos loading lazy -->
+<img [ngSrc]="product.images[0]" alt="" height="1080" width="1080">

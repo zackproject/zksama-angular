@@ -3,6 +3,8 @@ import { Component, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 //Import la interface OBJ product
 import { Product } from './models/products.models';
+// per a loadinglazy de imatges
+import { NgOptimizedImage } from '@angular/common';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
