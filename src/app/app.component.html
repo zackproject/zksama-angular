@@ -2,5 +2,8 @@
 <!-- extension "Angular Language Service" detect autocomplete-->
 <button (click)="changeTitle()">Change</button>
 
-<!-- las props vienen de -->
-<app-product title="Este es titulo"></app-product>
+<!-- ara ja no envia title
+<app-product title="Este es title"></app-product>
+-->
+<app-product [product]="product" *ngFor="let product of products"></app-product>
+
