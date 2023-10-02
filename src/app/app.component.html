@@ -5,5 +5,16 @@
 <!-- ara ja no envia title
 <app-product title="Este es title"></app-product>
 -->
-<app-product [product]="product" *ngFor="let product of products"></app-product>
 
+
+<ul>
+    <li>
+        <a routerLink="/products">Products</a>
+
+    </li>
+    <li> <a routerLink="/contact">Contact</a>
+    </li>
+</ul>
+
+<!-- per a que funcioni el router-->
+<router-outlet></router-outlet>

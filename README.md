@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
 ## Generate Components or other files
 
-Run `ng generate component component-name` to generate a new component or `ng g c components/{name}`. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name` to generate a new component or `ng g c components/{name}`. It posible you need to specify the module if the app did not detect automatically `ng generate component {name} --module=app` You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 

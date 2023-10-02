@@ -2,22 +2,21 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ProductComponent } from './components/product/product.component';
 //Quan necesites alguna cosa nova, l'importes   aqui
 //Per fer peticions necesitem a HTTPClientModule
-import {HttpClientModule} from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http'
 import { NgOptimizedImage } from '@angular/common';
+
 @NgModule({
   declarations: [
+    //Si tenen 'standalone' no fa falta que estiguin aqui
     AppComponent,
-    ProductComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    //Importa el nou module
+    //Importa el nou module per a tots els moduls
     HttpClientModule,
-    NgOptimizedImage
   ],
   providers: [],
   bootstrap: [AppComponent]
