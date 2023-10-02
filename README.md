@@ -44,3 +44,8 @@ https://fakeapi.platzi.com/
 
 ## Chrome extension
 `Angular DevTools` Inspect Element > Tab 'Angular'
+
+## Make our project SSR (better)
+ng add @nguniversal/express-engine
+`is automatically, but if there is a client side things like localstorage, manually change`
+`news comands 'run serve' in package.json  (need node server)`
