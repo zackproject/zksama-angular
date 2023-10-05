@@ -1,0 +1,32 @@
+<div class="container">
+    <header class="head-birthday">
+        <a href="/"><img src="https://www.zksama.com/logo.webp" alt="Logo Zack Project"></a>
+        <a href="https://play.google.com/store/apps/details?id=apps.zack.AnimeBirthday"><img height="50" width="50"
+                src="https://i.imgur.com/SWd8IVK.png" alt="Logo Anime Birthday">
+            Anime Birthday on Play Store
+        </a>
+        <select name="" id="">
+            <option value="red">Color red</option>
+            <option value="green">Color green</option>
+            <option value="blue">Color blue</option>
+
+        </select>
+    </header>
+    <main class="main-birthday">
+        Pantalla {{optionAnimeBirthday}}
+    </main>
+    <footer class="footer-birthday">
+        <button (click)="changeAnime()">
+            <span class="material-icons"> fast_rewind</span>
+            <div>Anime</div>
+        </button>
+        <button (click)="changeBirthday()">
+            <span class=" material-icons">home</span>
+            <div>Birthday</div>
+        </button>
+        <button (click)="changeCharacter()">
+            <span class=" material-icons">fast_forward</span>
+            <div>Character</div>
+        </button>
+    </footer>
+</div>
